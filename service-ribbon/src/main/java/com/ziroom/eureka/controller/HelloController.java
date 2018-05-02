@@ -19,8 +19,8 @@ public class HelloController {
     @Autowired
     HelloService helloService;
 
-    @RequestMapping(value = "/test")
-    public String test(String name){
+    @RequestMapping(value = "/hi")
+    public String hi(String name){
         return helloService.hiService(name);
     }
 
