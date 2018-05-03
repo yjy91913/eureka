@@ -16,6 +16,10 @@
         <module>service-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>spring-demo</module>
+        <module>eureka-server1</module>
+        <module>config-server1</module>
+        <module>config-client1</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
